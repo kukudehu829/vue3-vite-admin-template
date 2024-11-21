@@ -1,11 +1,22 @@
 @import './base.css';
 
-#app {
+.text_center {
+  text-align: center;
+}
+.large_btn {
+  display: inline-block !important;
+  width: 100%;
+  height: 6vh !important;
+  background: #f8e964 !important;
+  border-radius: 1vw;
+  font-size: 26px;
+}
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
-}
+} */
 
 a,
 .green {
@@ -27,9 +38,9 @@ a,
     place-items: center;
   }
 
-  #app {
+  /* #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  }
+  } */
 }
